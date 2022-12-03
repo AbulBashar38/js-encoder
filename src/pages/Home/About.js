@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div id='about' className="hero lg:min-h-screen  bg-base-200 text-neutral">
             <div className="hero-content flex-col lg:flex-row">
-                <img src={aboutImg} className="lg:max-w-md sm:max-w-sm rounded-lg shadow-2xl" />
+                <img src={aboutImg} className="lg:max-w-md sm:max-w-sm rounded-lg shadow-2xl" alt='aboutImg' />
                 <div className='lg:sp-10'>
                     <h1 className="lg:text-5xl text-4xl font-bold">About JS <span className='text-primary'>Encoder</span></h1>
                     <p className="py-6 lg:text-lg">JSEncoder provides online marketing campaigns across the key areas of Web Development, App Development, SEO etc. We started our official December in 2022  with a focus on small online business.  we try to evolved as a large online marketing firm. Now, we at JSEncoder, provides various internet marketing services for small and medium-sized business to enterprise brands across the globe with a great rate of success.</p>
