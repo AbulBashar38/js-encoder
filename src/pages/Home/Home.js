@@ -7,7 +7,7 @@ import Portfolio from "./Portfolio";
 import Service from "./Service";
 import TeamMember from "./TeamMember";
 import Testimonial from "./Testimonial";
-
+// this is home page
 const Home = () => {
   return (
     <div className="overflow-hidden">
