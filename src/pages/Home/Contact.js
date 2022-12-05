@@ -96,6 +96,14 @@ const Contact = () => {
           />
         </div>
       </div>
+      <div className=" pt-10 lg:px-20 px-10">
+        <h1 className="lg:text-3xl text-2xl font-bold">
+          Our <span className="text-primary">Location</span>
+        </h1>
+        <p className="text-lg">
+          225/1, WEST MONIPUR, <br /> MIRPUR, DHAKA-1216
+        </p>
+      </div>
     </div>
   );
 };

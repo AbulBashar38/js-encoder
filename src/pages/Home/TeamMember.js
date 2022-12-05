@@ -1,30 +1,49 @@
 import React from "react";
 import basar from "../../assets/images/basar.jpg";
-import sajal from "../../assets/images/sajal.jpg";
+import sajal from "../../assets/images/firozAlMamun.png";
 import jessan from "../../assets/images/jessan.jpg";
-import prasad from "../../assets/images/prasad.jpg";
+import prasad from "../../assets/images/prasad.png";
+import rased from "../../assets/images/rased.png";
+import dip from "../../assets/images/dip.png";
+import david from "../../assets/images/david.png";
 import MemberCard from "./MemberCard";
 const TeamMember = () => {
   const memberInfo = [
     {
       id: 1,
-      name: "Jessan Khan",
-      img: jessan,
+      name: "Mr.david",
+      img: david,
+      roll: "HR",
     },
     {
       id: 2,
-      name: "Prashad",
-      img: prasad,
+      name: "Md. Mahamudul Hasan",
+      img: jessan,
     },
     {
       id: 3,
-      name: "Sojol khan",
-      img: sajal,
+      name: "Prashad Dey",
+      img: prasad,
     },
     {
       id: 4,
+      name: "Md Firoz Al Mamun",
+      img: sajal,
+    },
+    {
+      id: 5,
+      name: "Md. Rasedul Islam",
+      img: rased,
+    },
+    {
+      id: 6,
       name: "Abul Basar",
       img: basar,
+    },
+    {
+      id: 7,
+      name: "Dip Jit Baroi",
+      img: dip,
     },
   ];
   return (
